@@ -68,5 +68,14 @@ public class Main {
 		sehir2 = "İzmir";
 		System.out.println(sehir1);
 		
+		int saat= 22;
+		if (saat < 10) {
+		  System.out.println("Günaydın.");
+		} else if (saat < 20) {
+		  System.out.println("İyi Günler.");
+		} else {
+		  System.out.println("İyi Akşamlar.");
+		}
+		
 	}
 }
