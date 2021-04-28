@@ -4,44 +4,38 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Product product1 = new Product(1, "Lenevo v14", 15000, "16 gb");
-		
-		
+		Product product1 = new Product(1, "Lenevo v14", 15000, "16 gb", 10, 13500);
+				
 		Product product2 = new Product();
-		product2.productId =2;
-		product2.name = "Lenevo v15";
-		product2.detail = "18 gb";
-		product2.unitPrice = 12.00;
+		product2.setProductId(2);
+		product2.setName("Casper");
+		product2.setDetail("Yeni");
+		product2.setDiscount(10);
+		product2.setUnitPrice(100);
 		
-		Product product3 = new Product();
-		product3.productId =3;
-		product3.name = "Hp v14";
-		product3.detail = "32 gb";
-		product3.unitPrice = 11.00;
+		System.out.println(product2.getUnitPriceAfterdiscount());
 		
-		Product product4 = new Product();
-		product4.productId =4;
-		product4.name = "Apple v14";
-		product4.detail = "54 gb";
-		product4.unitPrice = 155.00;
-		
-		Product[] products = {product1,product2,product3,product4};
+		Product[] products = {product1,product2,};
 		
 		for (Product product : products) {
-			System.out.println(product.name);
+			System.out.println(product.getName());
 		}
 		System.out.println(products.length);
 		
+		
 		Category category1 = new Category();
-		category1.categoryId =1;
-		category1.name = "Bilgisayar";
+		category1.setcategoryId(1);
+		category1.setname("Ýçecek");
 		
 		Category category2 = new Category();
-		category2.categoryId =1;
-		category2.name = "Bilgisayar";
+		category2.setcategoryId(2);
+		category2.setname("Yiyecek");
+		
+		System.out.println(category1.getname());
+		System.out.println(category2.getname());
 		
 		ProductManager productManager = new ProductManager();
-		productManager.addToCart(product4);
+		productManager.addToCart(product2);
 		
 	
 

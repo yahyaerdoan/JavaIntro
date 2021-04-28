@@ -12,12 +12,15 @@ public class Main {
 		ccourse.Teacher = "Yahya Erdoðan";
 		ccourse.Description = "Nitelikli yazlým geliþtirici yetiþtirme programý";
 
-		KodlamaIoCourse jcourse = new KodlamaIoCourse();
+		KodlamaIoCourse jcourse = new KodlamaIoCourse(2, "Java & React", "Engin Demiroð", "Nitelikli yazlým geliþtirici yetiþtirme programý" );
+		
+		/*
 		jcourse.Id = 2;
 		jcourse.Name = "Java & React";
 		jcourse.Teacher = "Engin Demiroð";
 		jcourse.Description = "Nitelikli yazlým geliþtirici yetiþtirme programý";
-
+		 */
+		
 		// Ýþ sýnýfý kodlarý yazýldý
 
 		KodlamaIoManager ioManager = new KodlamaIoManager();
