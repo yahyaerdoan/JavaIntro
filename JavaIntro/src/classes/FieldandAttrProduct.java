@@ -7,6 +7,7 @@ public class FieldandAttrProduct {
 		System.out.println("yapýcý blok çalýþtý");
 	}
 	
+	// nesne özelliklerine attribute ya da field deniyor
 	public int id;
 	public String name;
 	public String description;

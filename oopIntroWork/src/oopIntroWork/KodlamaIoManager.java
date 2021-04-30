@@ -9,8 +9,10 @@ public class KodlamaIoManager {
 	public void List(KodlamaIoCourse kodlamaIoCourse) {
 		System.out.println(
 				"Kurs Listelendi :" + " " + 
-	kodlamaIoCourse.Name + " / " + 
+	kodlamaIoCourse.Name  + " / " + 
 	kodlamaIoCourse.Teacher + " / "+ 
-	kodlamaIoCourse.Description);
+	kodlamaIoCourse.Description + " / "+ kodlamaIoCourse.Ornek 
+	+ " / "+kodlamaIoCourse.Ornek2 + " / "+kodlamaIoCourse.kocasýnSoyismi
+	);
 	}
 }

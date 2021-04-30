@@ -6,16 +6,20 @@ public class Main {
 
 		// Kurs tanýmlandý
 
-		KodlamaIoCourse ccourse = new KodlamaIoCourse();
+		KodlamaIoCourse ccourse = new KodlamaIoCourse();		
 		ccourse.Id = 1;
 		ccourse.Name = "C# & Angular";
 		ccourse.Teacher = "Yahya Erdoðan";
 		ccourse.Description = "Nitelikli yazlým geliþtirici yetiþtirme programý";
+		ccourse.Ornek = "";
+		ccourse.Ornek2 = "";
+		
 
-		KodlamaIoCourse jcourse = new KodlamaIoCourse(2, "Java & React", "Engin Demiroð", "Nitelikli yazlým geliþtirici yetiþtirme programý" );
+		KodlamaIoCourse jcourse = new KodlamaIoCourse(2, "Java & React", "Engin Demiroð", 
+				"Nitelikli yazlým geliþtirici yetiþtirme programý", "Yahya", "Aktürk", "kocasýnýn soyismi");
 		
 		/*
-		jcourse.Id = 2;
+		 2
 		jcourse.Name = "Java & React";
 		jcourse.Teacher = "Engin Demiroð";
 		jcourse.Description = "Nitelikli yazlým geliþtirici yetiþtirme programý";
