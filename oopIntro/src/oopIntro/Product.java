@@ -3,6 +3,7 @@ package oopIntro;
 public class Product {
 
 	// Constractor : yapýcý blok, hayati öneme sahip
+	//Encapsulation
 
 	private int productId;
 	private String name;
