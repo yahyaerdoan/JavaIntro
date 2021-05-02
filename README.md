@@ -7,3 +7,5 @@
 - Ders İçeriği : Diziler, Şart Blokları, Data Tipleri, While ve Do While, Çok Boyutlu Diziler, Değişkenler ve Switch Yapıları öğrenildi. WrokShop Çalışması Yapıldı.
 - 28 Nisan 2021 Çarşamba
 - Ders İçeriği : İnheritance öğrenildi.
+- 1 Mayıs 2021 Cumartesi 
+- Ders İçeriği : İnterface öğrenildi.
