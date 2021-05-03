@@ -8,7 +8,14 @@ public class Main {
 		CustomerManager customerManager = new CustomerManager(loggers);
 		
 		Customer yahya = new Customer(1, "Yahya", "Erdoğan");
-		customerManager.add(yahya);
+		
+		customerManager.add(yahya);	
+		
+		System.out.println("-------------------");
+		customerManager.delete(yahya);
+		
+		System.out.println("-------------------");
+		customerManager.update(yahya);
 
 	}
 
