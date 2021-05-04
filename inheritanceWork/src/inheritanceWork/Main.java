@@ -9,6 +9,7 @@ public class Main {
 		
 		student.firstName ="Yahya";
 		teacher.firstName ="Engin";
+		System.out.println(student);
 		
 		UserManager manager = new UserManager();
 		manager.add(teacher);
