@@ -6,6 +6,8 @@ public class Main {
 		WomenGameCalculator calculator = new WomenGameCalculator();
 		calculator.hesapla();
 		calculator.gameOver();
+		ManGameCalculator calculator2 = new ManGameCalculator();
+		calculator2.hesapla();
 
 		//Base sýnýftan newleyerek iþlem yapabiliriz.
 		GameCalculator gameCalculator = new OlderGameCalculator();
