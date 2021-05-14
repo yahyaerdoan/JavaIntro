@@ -7,5 +7,5 @@ public class DataBaseLogger implements Logger{
 		System.out.println("DataBase Kaydedildi : " + message);
 		
 	}
-
+	
 }

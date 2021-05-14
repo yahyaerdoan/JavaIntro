@@ -7,5 +7,5 @@ public class EmailLogger implements Logger {
 		System.out.println("Email Gönderildi : " + message);
 		
 	}
-
 }
+

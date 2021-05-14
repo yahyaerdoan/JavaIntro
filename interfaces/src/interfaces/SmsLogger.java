@@ -7,5 +7,5 @@ public class SmsLogger implements Logger{
 		System.out.println("Sms Gönderildi : " + message);
 		
 	}
-
+	
 }
